@@ -115,8 +115,15 @@ h1,h2,h3,h4,h5,h6,p {
 }
 /* #endregion /Header */
 /* #region Hero */
-.Hero {
-    background-color: rgba(17, 17, 17, 0.4);
+.hero {
+   
+    padding-bottom: 80px;
+
+}
+
+.hero-container {
+background-color: rgba(17, 17, 17, 0.4);
+padding: 381px 40px 40px;
 }
 
 .hero-title {
@@ -164,8 +171,10 @@ h1,h2,h3,h4,h5,h6,p {
 }
 /* #endregion /Hero */
 /* #region Benefits */
-.Benefits {
+.benefits {
     background: #1e1823;
+    padding: 50px 0;
+    
 }
 
 .benefits-list {}
@@ -187,7 +196,9 @@ h1,h2,h3,h4,h5,h6,p {
 
 /* #endregion /Benefits */
 /* #region Ingridients */
-.Ingridients {}
+.ingridients {
+padding: 120px 0 60px;
+}
 
 .ingredients-title {}
 
@@ -205,7 +216,9 @@ h1,h2,h3,h4,h5,h6,p {
 }
 /* #endregion /Ingridients */
 /* #region How it's made? */
-.made {}
+.made {
+    padding: 60px 0;
+}
 
 .made-title {}
 
@@ -225,7 +238,10 @@ h1,h2,h3,h4,h5,h6,p {
 .made-text {}
 /* #endregion /How it's made? */
 /* #region Products */
-.products {}
+.products {
+    padding: 60px 0;
+    background-color: aqua;
+}
 
 .products-title {}
 
@@ -257,7 +273,10 @@ h1,h2,h3,h4,h5,h6,p {
 }
 /* #endregion /Products */
 /* #region Top sellers */
-.sellers {}
+.sellers {
+    padding: 60px 0;
+    background-color: #fd9222;
+}
 
 .sellers-title {}
 
@@ -278,7 +297,9 @@ h1,h2,h3,h4,h5,h6,p {
 }
 /* #endregion /Top sellers */
 /* #region Reviews */
-.reviews {}
+.reviews {
+    padding: 60px 0 120px;
+}
 
 .reviews-title {}
 
@@ -304,6 +325,7 @@ h1,h2,h3,h4,h5,h6,p {
 /* #endregion /Reviews */
 /* #region Footer */
 .footer {
+    padding: 50px 0;
     background: #1e1823;
 }
 
