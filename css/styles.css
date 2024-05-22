@@ -11,6 +11,8 @@ button {
 ul, 
 ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -22,7 +24,23 @@ address {
     font-style: normal;
 }
 
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
 /* #endregion /base */
+
+.container {
+    width: 1168px;
+    outline: solid red;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+
+
 /* #region Component */
 
 .visually-hidden {
@@ -59,9 +77,14 @@ address {
 
 /* #endregion Component */
 /* #region Header */
-.page-header {}
+.page-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
-.header-nav {}
+.header-nav {
+    outline: solid green;
+}
 
 .logo {
     font-style: italic;
