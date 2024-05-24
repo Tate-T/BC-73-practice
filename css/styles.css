@@ -155,6 +155,15 @@ p {
   align-items: center;
 }
 
+.header-logo-icon{
+  stroke: #FD9222;
+  fill: #FCF1E0;
+}
+
+.header-icon-contact:hover{
+    fill: #FD9222;
+}
+
 /* #endregion /Header */
 /* #region Hero */
 .hero {
