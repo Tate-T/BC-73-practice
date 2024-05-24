@@ -286,6 +286,8 @@ p {
 }
 
 .benefits-list {
+  display: flex;
+  gap: 88px;
 }
 
 .benefits-item {
@@ -296,6 +298,7 @@ p {
   font-size: 18px;
   line-height: 1.22;
   color: #fff;
+  margin-bottom: 18px;
 }
 
 .benefits-text {
@@ -311,21 +314,52 @@ p {
 }
 
 .ingredients-title {
+  max-width: 412px;
+  outline: solid pink;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 50px;
 }
 
 .ingredients-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
 }
 
 .ingredients-item {
-  background: #fff;
+  width: 260px;
+  border-radius: 15px;
+  outline: solid green;
+  padding-left: 23px;
+  padding-right: 23px; 
+  padding-top: 28px;
+  padding-bottom: 28px;
+  background-color: var(--accent-color) ;
 }
 
 .ingridient-name {
   font-weight: 600;
-  line-height: 1.29;
+  font-size: 14px;
+  line-height: 1.28571;
   letter-spacing: -0.02em;
   text-transform: uppercase;
+  color: #fff;
+  margin-top: 36px;
 }
+
+.ingredients-item:nth-child(2n) .ingridient-name{
+color: #111;
+}
+
+.ingredients-item:nth-child(2n){
+  background-color: #fff;
+}
+
+.ingredients-item:nth-child(3),.ingredients-item:nth-child(7) {
+  background-color: #1e1823;
+}
+
 /* #endregion /Ingridients */
 /* #region How it's made? */
 .made {
