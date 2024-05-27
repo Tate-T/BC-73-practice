@@ -316,7 +316,7 @@ p {
 .ingredients-title {
   max-width: 412px;
   outline: solid pink;
-  margin-left:auto;
+  margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
 }
@@ -332,10 +332,10 @@ p {
   border-radius: 15px;
   outline: solid green;
   padding-left: 23px;
-  padding-right: 23px; 
+  padding-right: 23px;
   padding-top: 28px;
   padding-bottom: 28px;
-  background-color: var(--accent-color) ;
+  background-color: var(--accent-color);
 }
 
 .ingridient-name {
@@ -348,15 +348,16 @@ p {
   margin-top: 36px;
 }
 
-.ingredients-item:nth-child(2n) .ingridient-name{
-color: #111;
+.ingredients-item:nth-child(2n) .ingridient-name {
+  color: #111;
 }
 
-.ingredients-item:nth-child(2n){
+.ingredients-item:nth-child(2n) {
   background-color: #fff;
 }
 
-.ingredients-item:nth-child(3),.ingredients-item:nth-child(7) {
+.ingredients-item:nth-child(3),
+.ingredients-item:nth-child(7) {
   background-color: #1e1823;
 }
 
@@ -426,20 +427,31 @@ color: #111;
 /* #region Top sellers */
 .sellers {
   padding: 60px 0;
-  background-color: var(--accent-color);
 }
 
 .sellers-title {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .orange {
 }
 
 .sellers-list {
+  display: flex;
+  gap: 16px;
 }
 
 .sellers-item {
   background: #fff;
+  border-radius: 15px;
+  border-right: 1px solid rgba(17, 17, 17, 0.1);
+  border-bottom: 1px solid rgba(17, 17, 17, 0.1);
+  border-left: 1px solid rgba(17, 17, 17, 0.1);
+  background: #fff;
+  overflow: hidden;
+  padding-bottom: 28px;
+  background-color: #fff;
 }
 
 .sellers-name {
@@ -448,7 +460,41 @@ color: #111;
   line-height: 1.33;
   letter-spacing: -0.02em;
   text-transform: uppercase;
+  text-align: center;
 }
+.overlay-box {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 28px;
+}
+.overlay-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.28px;
+  color: #fafafa;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    165deg,
+    rgba(253, 253, 255, 0.1) 3.97%,
+    rgba(8, 2, 21, 0) 109.76%
+  );
+  backdrop-filter: blur(7.5px);
+  padding: 40px;
+  transform: translateY(100%);
+  transition: transform 250ms linear;
+}
+.sellers-item:hover .overlay-text {
+  transform: translateY(0);
+}
+
 /* #endregion /Top sellers */
 /* #region Reviews */
 .reviews {
