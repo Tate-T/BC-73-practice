@@ -556,6 +556,7 @@ p {
 
 .reviews-btn {
   display: block;
+  max-width: 222px;
   /* display: flex;
   align-items: center;
   justify-content: center; */
@@ -651,6 +652,18 @@ p {
   height: 100%;
   background-color: rgba(253, 253, 255, 0.1);
   backdrop-filter: blur(5px);
+visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+/*.modal-overlay.is-open{
+  opacity: 1;
+  pointer-events: auto;
+}*/
+
+.modal-overlay:target {
+  opacity: 1;
+  visibility: visible;
 }
 
 .modal {
@@ -766,3 +779,30 @@ p {
   color: var(--accent-color, #fd9222);
   text-decoration-line: underline;
 }
+.checkbox_icon_span {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 6px;
+  border: 1px solid rgba(17, 17, 17, 0.14);
+  margin-right: 12px;
+}
+.checkbox_icon {
+  fill: #fff;
+  width: 10px;
+  height: 10px;  
+}
+
+.modal-checkbox:checked + .checkbox_icon_span {
+   background-color: var(--accent-color);
+   border: none;
+}
+
+/*.modal-checkbox:checked + .checkbox_icon_span > .checkbox_icon {
+  fill:#000;
+}*/
+
+

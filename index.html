@@ -498,7 +498,8 @@
               </p>
             </li>
           </ul>
-          <button class="reviews-btn" type="button">Leave a review</button>
+          <!--<button class="reviews-btn" type="button">Leave a review</button>-->
+          <a href="#modal" class="reviews-btn">Leave a review </a>
         </div>
       </section>
       <!-- #endregion /Reviews -->
@@ -588,7 +589,7 @@
     </footer>
     <!-- #endregion /Footer -->
 
-    <div class="modal-overlay">
+    <div class="modal-overlay is-open" id="modal">
       <div class="modal">
         <button class="modal-button">
           <svg class="modal-close" width="28" height="28">
@@ -652,7 +653,12 @@
 
             <li class="modal-list-item">
               <label class="modal-label modal-label-checkbox">
-                <input class="modal-checkbox" type="checkbox" />
+                <input class="modal-checkbox visually-hidden" type="checkbox" />
+                <span class="checkbox_icon_span">
+                  <svg class="checkbox_icon" width="10" height="10">
+                    <use href="./images/icons.svg#icon-vector"></use>
+                  </svg>
+                </span>
                 <span class="modal-checkbox-span">
                   I accept the terms and conditions of the
                   <a class="modal-checkbox-link" href="#">Privacy Policy</a>
