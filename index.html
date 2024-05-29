@@ -587,5 +587,81 @@
       </div>
     </footer>
     <!-- #endregion /Footer -->
+
+    <div class="modal-overlay">
+      <div class="modal">
+        <button class="modal-button">
+          <svg class="modal-close" width="28" height="28">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-title">
+          LEAVE A REVIEW ABOUT
+          <span class="modal-title-accent">OUR CHOCOLATE</span>
+        </p>
+        <form class="modal-form">
+          <ul class="modal-list">
+            <li class="modal-list-item">
+              <label class="modal-label" for="name"> Name </label>
+              <div class="modal-input-box">
+                <input type="text" class="modal-input" name="name" id="name" />
+                <svg class="modal-label-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-user"></use>
+                </svg>
+              </div>
+            </li>
+
+            <li class="modal-list-item">
+              <label class="modal-label" for="email"> Email </label>
+              <div class="modal-input-box">
+                <input
+                  type="email"
+                  class="modal-input"
+                  name="email"
+                  id="email"
+                />
+                <svg class="modal-label-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-mail"></use>
+                </svg>
+              </div>
+            </li>
+
+            <li class="modal-list-item">
+              <label class="modal-label" for="phone"> Phone number </label>
+              <div class="modal-input-box">
+                <input type="tel" class="modal-input" name="phone" id="phone" />
+                <svg class="modal-label-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+              </div>
+            </li>
+
+            <li class="modal-list-item">
+              <label class="modal-label" for="comment"> Comment </label>
+              <div class="modal-input-box">
+                <textarea
+                  type="tel"
+                  class="modal-input modal-textarea"
+                  name="phone"
+                  id="phone"
+                  placeholder="Enter text"
+                  rows="6"
+                ></textarea>
+              </div>
+            </li>
+
+            <li class="modal-list-item">
+              <label class="modal-label modal-label-checkbox">
+                <input class="modal-checkbox" type="checkbox" />
+                <span class="modal-checkbox-span">
+                  I accept the terms and conditions of the
+                  <a class="modal-checkbox-link" href="#">Privacy Policy</a>
+                </span>
+              </label>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
