@@ -1,0 +1,25 @@
+@media screen and (min-width: 736px) {
+    .container {
+        max-width: 736px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .page-header {
+        padding-bottom: 20px;
+    }
+
+    .header-nav-list {
+        display: flex;
+        gap: 20px;
+    }
+
+    .header-socials {
+        display: flex;
+    }
+
+    .header-social a {
+        display: flex;
+    }
+
+}
