@@ -2,7 +2,19 @@
     .container {
         max-width: 1168px;
     }
-
+    .title-decs {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.16;
+    }
+    
+    .btn {
+        color: #fff;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.21;
+    }
+    /* header */
     .logo {
         font-size: 18px;
         line-height: 1.11;
@@ -17,4 +29,19 @@
         width: 24px;
         height: 24px;
     }
+    /* hero */
+    .hero {
+        padding-bottom: 80px;
+    }
+    .container-box {
+        padding: 381px 40px 40px;
+    }
+    .btn-how {
+        min-height: 45px;
+        padding: 14px 40px;
+    }
+
+
+
 }
+
