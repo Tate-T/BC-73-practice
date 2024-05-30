@@ -1,0 +1,20 @@
+@media screen and (min-width: 1168px) {
+    .container {
+        max-width: 1168px;
+    }
+
+    .logo {
+        font-size: 18px;
+        line-height: 1.11;
+    }
+
+    .header-nav-list {
+        gap: 24px;
+        margin-right: 90px;
+    }
+
+    .header-logo-icon {
+        width: 24px;
+        height: 24px;
+    }
+}
