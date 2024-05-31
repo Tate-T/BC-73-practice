@@ -1,144 +1,13 @@
-/* #region base */
 
-
-
-
-/* #endregion /base */
-
-
-
-/* #region Component */
-
-
-
-.title-decs {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 1.16;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.btn {
-    color: #fff;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.21;
-}
-
-.orange {
-    color: var(--accent-color);
-}
-
-/* #endregion Component */
-/* #region Header */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* #endregion /Header */
 /* #region Hero */
-.hero {
-    padding-bottom: 80px;
-}
 
-.hero-container {}
 
-.container-box {
-    background-color: rgba(17, 17, 17, 0.4);
-    padding: 381px 40px 40px;
-    border-radius: 30px;
-    background-image: linear-gradient(rgba(17, 17, 17, 0.4),
-            rgba(17, 17, 17, 0.4)),
-        url(../images/hero-bg.webp);
-    background-position: center;
-}
 
-.hero-title {
-    max-width: 484px;
-    margin-bottom: 32px;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 1.21;
-    letter-spacing: -0.03em;
-    color: #fff;
-}
 
-.hero-btns {
-    display: flex;
-    justify-content: space-between;
-    outline: 1px solid red;
-}
 
-.hero-list {
-    display: flex;
-    gap: 14px;
-}
 
-.hero-item {}
 
-.btn-buy {
-    display: flex;
-    min-width: 144px;
-    min-height: 45px;
-    padding: 14px 40px;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--accent-color);
-    border-color: transparent;
-    border-radius: 100px;
-    transition: color 250ms linear, background-color 250ms linear;
-}
 
-.btn-buy:hover,
-.btn-buy:focus {
-    color: var(--accent-color);
-    background-color: #fcf1e0;
-}
-
-.btn-how {
-    display: flex;
-    min-width: 183px;
-    min-height: 45px;
-    padding: 14px 40px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100px;
-    border: 1px solid #fff;
-    background-color: transparent;
-    transition: color 250ms linear;
-}
-
-.btn-how:hover,
-.btn-how:focus {
-    color: var(--accent-color);
-}
 
 .scroll-link {
     display: flex;
@@ -153,10 +22,7 @@
     transition: color 250ms linear;
 }
 
-.scroll-link:hover,
-.scroll-link:focus {
-    color: var(--accent-color);
-}
+
 
 .scroll-circle {
     width: 38px;
@@ -168,9 +34,7 @@
     justify-content: center;
 }
 
-.hero-scroll {
-    fill: var(--accent-color);
-}
+
 
 /* #endregion /Hero */
 /* #region Benefits */

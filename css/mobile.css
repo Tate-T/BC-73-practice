@@ -6,7 +6,25 @@
     padding-left: 20px;
     padding-right: 20px;
 }
+.orange {
+    color: var(--accent-color);
+}
+.title-decs {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+}
 
+.btn {
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.21;
+}
+/* header */
 .page-header {
     padding-top: 20px;
     padding-bottom: 14px;
@@ -91,9 +109,101 @@
     fill: var(--accent-color);
 }
 
+/* hero */
 
+.hero {
+    padding-bottom: 80px;
+}
+.container-box {
+    
+    background-color: rgba(17, 17, 17, 0.4);
+    padding: 395px 22px 20px 20px ;
+    border-radius: 30px;
+    background-image: linear-gradient(rgba(17, 17, 17, 0.4),
+            rgba(17, 17, 17, 0.4)),
+        url(../images/hero-bg.webp);
+    background-position: center;
+}
+.hero-title {
+    max-width: 293px;
+    margin-bottom: 32px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+.hero-btns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.hero-list {
+    display: flex;
+    gap: 14px;
+}
+
+.btn-buy {
+    display: flex;
+    min-width: 120px;
+    min-height: 41px;
+    padding: 12px 28px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent-color);
+    border-color: transparent;
+    border-radius: 100px;
+    transition: color 250ms linear, background-color 250ms linear;
+}
+.btn-buy:hover,
+.btn-buy:focus {
+    color: var(--accent-color);
+    background-color: #fcf1e0;
+}
+.btn-how:hover,
+.btn-how:focus {
+    color: var(--accent-color);
+}
+
+.btn-how {
+    display: flex;
+    min-width: 159px;
+    min-height: 41px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    transition: color 250ms linear;
+}
+.scroll-link:hover,
+.scroll-link:focus {
+    color: var(--accent-color);
+}
+.hero-scroll {
+    fill: var(--accent-color);
+}
+
+.scroll-link {
+    outline: 1px solid red;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-shrink: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.03em;
+    color: #fff;
+    transition: color 250ms linear;
+}
 @media screen and (min-width: 375px) {
     .container {
         max-width: 375px;
     }
 }
+
+
+

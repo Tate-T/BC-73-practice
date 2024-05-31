@@ -4,11 +4,14 @@
         padding-left: 16px;
         padding-right: 16px;
     }
-
+    .title-decs {
+        font-size: 28px;
+    }
+    /* header */
     .page-header {
         padding-bottom: 20px;
     }
-
+    
     .header-nav-list {
         display: flex;
         gap: 20px;
@@ -21,5 +24,30 @@
     .header-social a {
         display: flex;
     }
+    /* hero */
+    .hero {
+        padding-bottom: 40px;
+    }
+    .container-box {
+        padding: 671px 40px 40px 40px;
+    }
+    .hero-title {
+        outline: solid green;
+        max-width: 484px;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 1.21;
+    }
+    .btn-buy {
+        min-width: 144px;
+        min-height: 45px;
+        padding: 14px 40px;
+    }
+    .btn-how {
+        min-width: 183px;
+        min-height: 44px;
+        padding: 14px 40px;
+    }
 
 }
+
