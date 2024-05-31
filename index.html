@@ -1,112 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./images/chocolate-favicon.svg" type="image/svg" />
+    <link
+      rel="shortcut icon"
+      href="./images/chocolate-favicon.svg"
+      type="image/svg"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>SIMPLY CHOCOLATE</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/mobile.css">
-    <link rel="stylesheet" href="./css/tablet.css">
-    <link rel="stylesheet" href="./css/desktop.css">
-</head>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
+  </head>
 
-<body>
+  <body>
     <!-- #region Header -->
     <header id="home" class="page-header">
-        <div class="container">
-            <nav class="header-nav">
-                <a class="logo" href="./index.html">SIMPLY <span class="logo-span">CHOCOLATE</span>
-                    <svg class="header-logo-icon">
-                        <use href="./images/icons.svg#icon-chocolate"></use>
-                    </svg>
-                </a>
-                <ul class="header-nav-list">
-                    <li class="header-nav-item">
-                        <a class="header-nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="header-nav-item">
-                        <a class="header-nav-link" href="#made">How it's made?</a>
-                    </li>
-                    <li class="header-nav-item">
-                        <a class="header-nav-link" href="#reviews">Chocolate is loved</a>
-                    </li>
-                </ul>
-            </nav>
-            <ul class="header-socials">
-                <li class="header-social">
-                    <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer"
-                        aria-label="Link Facebook">
-                        <svg class="header-icon-contact" width="24" height="24">
-                            <use href="./images/icons.svg#icon-facebook"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="header-social">
-                    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer"
-                        aria-label="Link Instagram">
-                        <svg class="header-icon-contact" width="24" height="24">
-                            <use href="./images/icons.svg#icon-instagram"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="header-social">
-                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Link Twitter">
-                        <svg class="header-icon-contact" width="24" height="24">
-                            <use href="./images/icons.svg#icon-twitter"></use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
-        </div>
+      <div class="container">
+        <nav class="header-nav">
+          <a class="logo" href="./index.html"
+            >SIMPLY <span class="logo-span">CHOCOLATE</span>
+            <svg class="header-logo-icon">
+              <use href="./images/icons.svg#icon-chocolate"></use>
+            </svg>
+          </a>
+          <button class="header-burger">
+            <svg class="header-burger-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-menu"></use>
+            </svg>
+          </button>
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="#home">Home</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="#made">How it's made?</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="#reviews">Chocolate is loved</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-socials">
+          <li class="header-social">
+            <a
+              href="https://facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Link Facebook"
+            >
+              <svg class="header-icon-contact" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header-social">
+            <a
+              href="https://instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Link Instagram"
+            >
+              <svg class="header-icon-contact" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header-social">
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Link Twitter"
+            >
+              <svg class="header-icon-contact" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </header>
     <!-- #endregion /Header -->
     <main>
-        <!-- #region Hero -->
-        <section class="hero">
-            <div class="container hero-container">
-                <div class="container-box">
-                    <h1 class="hero-title">
-                        Treat yourself or a loved one to our finest
-                        ingredients for a moment of pure delight!
-                    </h1>
-                    <div class="hero-btns">
-                        <ul class="hero-list">
-                            <li class="hero-item">
-                                <button class="btn btn-buy" type="button">
-                                    Buy now
-                                </button>
-                            </li>
-                            <li class="hero-item">
-                                <button class="btn btn-how" type="button">
-                                    How it's made
-                                </button>
-                            </li>
-                        </ul>
-                        <a href="#" class="scroll-link"><span>Scroll down</span>
-            
-                            <span class="scroll-circle">
-                                <svg class="hero-scroll" width="22" height="22">
-                                    <use href="./images/icons.svg#icon-scroll-down"></use>
-                                </svg>
-                            </span>
-                        </a>
-                    </div>
-                </div>
+      <!-- #region Hero -->
+      <section class="hero">
+        <div class="container hero-container">
+          <div class="container-box">
+            <h1 class="hero-title">
+              Treat yourself or a loved one to our finest ingredients for a
+              moment of pure delight!
+            </h1>
+            <div class="hero-btns">
+              <ul class="hero-list">
+                <li class="hero-item">
+                  <button class="btn btn-buy" type="button">Buy now</button>
+                </li>
+                <li class="hero-item">
+                  <button class="btn btn-how" type="button">
+                    How it's made
+                  </button>
+                </li>
+              </ul>
+              <a href="#" class="scroll-link"
+                ><span>Scroll down</span>
+
+                <span class="scroll-circle">
+                  <svg class="hero-scroll" width="22" height="22">
+                    <use href="./images/icons.svg#icon-scroll-down"></use>
+                  </svg>
+                </span>
+              </a>
             </div>
-        </section>
-        <!-- #endregion /Hero -->
-        <!-- #region Benefits -->
-        <!-- <section class="benefits">
+          </div>
+        </div>
+      </section>
+      <!-- #endregion /Hero -->
+      <!-- #region Benefits -->
+      <!-- <section class="benefits">
             <div class="container">
                 <h2 class="visually-hidden title-decs">Benefits</h2>
                 <ul class="benefits-list">
@@ -146,9 +173,9 @@
                 </ul>
             </div>
         </section> -->
-        <!-- #endregion /Benefits -->
-        <!-- #region Ingridients -->
-        <!-- <section class="ingridients">
+      <!-- #endregion /Benefits -->
+      <!-- #region Ingridients -->
+      <!-- <section class="ingridients">
             <div class="container">
                 <h2 class="ingredients-title title-decs">
                     It all adds up to one exceptional taste sensation
@@ -188,9 +215,9 @@
                 </ul>
             </div>
         </section> -->
-        <!-- #endregion /Ingridients -->
-        <!-- #region How it's made? -->
-        <!-- <section id="made" class="made">
+      <!-- #endregion /Ingridients -->
+      <!-- #region How it's made? -->
+      <!-- <section id="made" class="made">
             <div class="container">
                 <h2 class="made-title title-decs">
                     How it's <span class="orange">made</span>?
@@ -236,9 +263,9 @@
                 </ol>
             </div>
         </section> -->
-        <!-- #endregion /How it's made? -->
-        <!-- #region Products -->
-        <!-- <section class="products">
+      <!-- #endregion /How it's made? -->
+      <!-- #region Products -->
+      <!-- <section class="products">
             <div class="container">
                 <h2 class="products-title title-decs">
                     Our <span class="orange">products</span>
@@ -314,9 +341,9 @@
                 </ul>
             </div>
         </section> -->
-        <!-- #endregion /Products -->
-        <!-- #region Top sellers -->
-        <!-- <section class="sellers">
+      <!-- #endregion /Products -->
+      <!-- #region Top sellers -->
+      <!-- <section class="sellers">
             <div class="container">
                 <h2 class="sellers-title title-decs">
                     <span class="orange">Top</span> sellers
@@ -367,9 +394,9 @@
                 </ul>
             </div>
         </section> -->
-        <!-- #endregion /Top sellers -->
-        <!-- #region Reviews -->
-        <!-- <section id="reviews" class="reviews">
+      <!-- #endregion /Top sellers -->
+      <!-- #region Reviews -->
+      <!-- <section id="reviews" class="reviews">
             <div class="container">
                 <h2 class="reviews-title title-decs">
                     <span class="orange">Chocolate</span> is loved
@@ -408,7 +435,7 @@
                 <a href="#modal" class="reviews-btn">Leave a review </a>
             </div>
         </section> -->
-        <!-- #endregion /Reviews -->
+      <!-- #endregion /Reviews -->
     </main>
     <!-- #region Footer -->
     <!-- <footer class="footer">
@@ -541,6 +568,67 @@
     </div> -->
 
     <!-- #endregion MODAL -->
-</body>
 
+    <!--Mobile Menu-->
+
+    <div class="header-menu is-hidden">
+      <div class="menu-btn-list">
+        <button class="header-btn" type="button">
+          <svg class="header-close-mobile" width="12" height="12">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <ul class="header-pages">
+          <li class="header-page">
+            <a class="header-page-link header-active" href="#">Home</a>
+          </li>
+          <li class="header-page">
+            <a class="header-page-link" href="#">How it’s made?</a>
+          </li>
+          <li class="header-page">
+            <a class="header-page-link" href="#">Chocolate is loved</a>
+          </li>
+        </ul>
+      </div>
+      <ul class="header-socials-menu">
+        <li class="header-social-menu">
+          <a
+            class="header-page-link"
+            href="https://facebook.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Link Facebook"
+          >
+            <svg class="header-icon-menu" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="header-social-menu">
+          <a
+            href="https://instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Link Instagram"
+          >
+            <svg class="header-icon-menu" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="header-social-menu">
+          <a
+            href="https://twitter.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Link Twitter"
+          >
+            <svg class="header-icon-menu" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </body>
 </html>
